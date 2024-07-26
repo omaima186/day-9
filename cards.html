@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards with Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 200px;
+            text-align: center;
+            padding: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .card h3 {
+            margin: 15px 0;
+            font-size: 1.2em;
+        }
+        .card p {
+            color: #666;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/high-resolution-image-black-white-twitter-icon-web-printing-purpose-logo-background-172341923.jpg" alt="Card Image 1">
+            <h3>TWITTER</h3>
+            <p>click to open twitter.</p>
+            <button>Read more</button>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://images.template.net/76924/Free-Minimal-Instagram-Vector-1.jpg" alt="Card Image 2">
+            <h3>INSTAGRAM</h3>
+            <p>click to open instagram.</p>
+            <button>Read more</button>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.JGkGrGwtsGDwMSbHvnavIwHaHa&pid=Api&P=0&h=220" alt="Card Image 3">
+            <h3>YOUTUBE</h3>
+            <p>click to open youtube.</p>
+            <button>Read more</button>
+        </div>
+    </div>
+    
+    <button>Click Me</button>
+</body>
+</html>
